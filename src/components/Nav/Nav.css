@@ -1,0 +1,36 @@
+/* Custom Navbar styles */
+.custom-navbar {
+  background-color: #8fae45; /* Set the background color */
+}
+
+.custom-navbar .navbar-nav .nav-link {
+  color: #fff; /* Set the color for the navigation links */
+  margin-right: 15px; /* Add spacing between the navigation links */
+}
+
+.custom-navbar .navbar-brand {
+  color: #2d936c; /* Set the color for the logo */
+}
+
+.custom-navbar .nav {
+  margin-left: auto; /* Align the login dropdowns to the right */
+}
+
+
+.custom-navbar .nav-link img {
+  width: 30px; /* Adjust the size of the profile picture */
+  height: 30px;
+  margin-right: 5px; /* Add spacing between the picture and username */
+}
+
+.custom-navbar .nav-link .username {
+  color: #335468; /* Set the color for the username */
+}
+
+.logo{
+    height: 70px;
+    width: 75px;;
+}
+.clr-cstm-1{
+    color: #335468;
+}
