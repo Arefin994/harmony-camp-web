@@ -7,6 +7,9 @@ import {
 } from "react-router-dom";
 import Nav from './components/Nav/Nav';
 import Home from './components/Home/Home';
+import StudentLogin from './components/StudentLogin/StudentLogin';
+import InstructorLogin from './components/InstructorLogin/InstructorLogin'
+import AdminLogin from './components/AdminLogin/AdminLogin';
 // import Error404 from './components/Error404/Error404';
 
 
@@ -18,6 +21,18 @@ const router = createBrowserRouter([
       {
         path: '/home',
         element: <Home></Home>
+      },
+      {
+        path: '/login-student',
+        element: <StudentLogin></StudentLogin>
+      },
+      {
+        path: '/login-instructor',
+        element: <InstructorLogin></InstructorLogin>
+      },
+      {
+        path: '/login-admin',
+        element: <AdminLogin></AdminLogin>
       }
     ]
   }

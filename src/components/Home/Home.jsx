@@ -3,6 +3,8 @@ import './Home.css'
 const Home = () => {
     return (
         <div>
+            <h3 className='text-center py-3'>Welcome to <span className="clr-cstm-2">Harmony</span>
+              Camp</h3>
             <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
