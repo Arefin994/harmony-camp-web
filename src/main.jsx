@@ -10,6 +10,8 @@ import Home from './components/Home/Home';
 import StudentLogin from './components/StudentLogin/StudentLogin';
 import InstructorLogin from './components/InstructorLogin/InstructorLogin'
 import AdminLogin from './components/AdminLogin/AdminLogin';
+import NavSeeAllStu from './components/NavSeeAllStu/NavSeeAllStu';
+import NavSeeAllInsctruc from './components/NavSeeAllInstruc/NavSeeAllInsctruc';
 // import Error404 from './components/Error404/Error404';
 
 
@@ -33,6 +35,14 @@ const router = createBrowserRouter([
       {
         path: '/login-admin',
         element: <AdminLogin></AdminLogin>
+      },
+      {
+        path: '/see-all-students',
+        element: <NavSeeAllStu></NavSeeAllStu>
+      },
+      {
+        path: '/see-all-instructors',
+        element: <NavSeeAllInsctruc></NavSeeAllInsctruc>
       }
     ]
   }

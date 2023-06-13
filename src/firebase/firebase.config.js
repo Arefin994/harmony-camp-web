@@ -3,12 +3,12 @@ import { initializeApp } from "firebase/app";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDV2WIH4KYZR9X3iUgnRSDupUdBeR20cWs",
-  authDomain: "figtion-firebase.firebaseapp.com",
-  projectId: "figtion-firebase",
-  storageBucket: "figtion-firebase.appspot.com",
-  messagingSenderId: "701110816189",
-  appId: "1:701110816189:web:49b6255f070377ebf916d4"
+  apiKey: import.meta.env.VITE_REACT_APP_apiKey,
+  authDomain: import.meta.env.VITE_REACT_APP_authDomain,
+  projectId: import.meta.env.VITE_REACT_APP_projectId,
+  storageBucket: import.meta.env.VITE_REACT_APP_storageBucket,
+  messagingSenderId: import.meta.env.VITE_REACT_APP_messagingSenderId,
+  appId: import.meta.env.VITE_REACT_APP_appId
 };
 
 const app = initializeApp(firebaseConfig);
