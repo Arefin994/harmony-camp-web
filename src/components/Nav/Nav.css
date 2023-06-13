@@ -34,3 +34,12 @@
 .clr-cstm-1{
     color: #335468;
 }
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+}

@@ -1,3 +1,6 @@
+import ExtraHomeSec from '../ExtraHomeSec/ExtraHomeSec';
+import PopularClasses from '../PopularClasses/PopularClasses';
+import TopInst from '../TopInst/TopInst';
 import './Home.css'
 
 const Home = () => {
@@ -26,7 +29,11 @@ const Home = () => {
                     <span className="sr-only">Next</span>
                 </a>
             </div>
+            <PopularClasses></PopularClasses>
+            <TopInst></TopInst>
+            <ExtraHomeSec></ExtraHomeSec>
         </div>
+        
     );
 };
 

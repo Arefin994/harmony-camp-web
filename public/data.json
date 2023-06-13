@@ -1,0 +1,97 @@
+{
+    "popularClasses": [
+      {
+        "id": 1,
+        "title": "Piano Lessons",
+        "image": "piano.jpg",
+        "students": 120
+      },
+      {
+        "id": 2,
+        "title": "Violin Classes",
+        "image": "violin.jpg",
+        "students": 98
+      },
+      {
+        "id": 3,
+        "title": "Drumming Workshop",
+        "image": "drums.jpg",
+        "students": 85
+      },
+      {
+        "id": 4,
+        "title": "Singing Lessons",
+        "image": "singing.jpg",
+        "students": 78
+      },
+      {
+        "id": 5,
+        "title": "Guitar Classes",
+        "image": "guitar.jpg",
+        "students": 72
+      },
+      {
+        "id": 6,
+        "title": "Music Production Workshop",
+        "image": "music-production.jpg",
+        "students": 68
+      }
+    ],
+    "popularInstructors": [
+      {
+        "id": 1,
+        "name": "John Smith",
+        "image": "john.jpg",
+        "students": 200,
+        "email": "johnsmith@example.com",
+        "classesTaken": 5,
+        "classes": ["Piano Lessons", "Music Production Workshop", "Singing Lessons"]
+      },
+      {
+        "id": 2,
+        "name": "Emily Johnson",
+        "image": "emily.jpg",
+        "students": 180,
+        "email": "emilyjohnson@example.com",
+        "classesTaken": 3,
+        "classes": ["Violin Classes", "Guitar Classes"]
+      },
+      {
+        "id": 3,
+        "name": "Michael Davis",
+        "image": "michael.jpg",
+        "students": 160,
+        "email": "michaeldavis@example.com",
+        "classesTaken": 2,
+        "classes": ["Drumming Workshop"]
+      },
+      {
+        "id": 4,
+        "name": "Sarah Thompson",
+        "image": "sarah.jpg",
+        "students": 150,
+        "email": "sarahthompson@example.com",
+        "classesTaken": 4,
+        "classes": ["Piano Lessons", "Guitar Classes", "Singing Lessons"]
+      },
+      {
+        "id": 5,
+        "name": "David Wilson",
+        "image": "david.jpg",
+        "students": 140,
+        "email": "davidwilson@example.com",
+        "classesTaken": 1,
+        "classes": ["Singing Lessons"]
+      },
+      {
+        "id": 6,
+        "name": "Jessica Lee",
+        "image": "jessica.jpg",
+        "students": 130,
+        "email": "jessicalee@example.com",
+        "classesTaken": 3,
+        "classes": ["Piano Lessons", "Music Production Workshop"]
+      }
+    ]
+  }
+  
