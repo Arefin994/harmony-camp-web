@@ -8,7 +8,7 @@ const NavSeeAllStu = () => {
   const [students, setStudents] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:5000/allData')
+    fetch('https://harmony-camp-server-side-arefin994.vercel.app/allData')
       .then(response => response.json())
       .then(data => setStudents(data.allItems.students))
       .catch(error => console.error(error));

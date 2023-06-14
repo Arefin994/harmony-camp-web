@@ -12,6 +12,8 @@ import InstructorLogin from './components/InstructorLogin/InstructorLogin'
 import AdminLogin from './components/AdminLogin/AdminLogin';
 import NavSeeAllStu from './components/NavSeeAllStu/NavSeeAllStu';
 import NavSeeAllInsctruc from './components/NavSeeAllInstruc/NavSeeAllInsctruc';
+import NavSeeAllCourses from './components/NavSeeAlllCourses/NavSeeAlllCourses';
+import Error404 from './components/Error404/Error404';
 // import Error404 from './components/Error404/Error404';
 
 
@@ -43,14 +45,18 @@ const router = createBrowserRouter([
       {
         path: '/see-all-instructors',
         element: <NavSeeAllInsctruc></NavSeeAllInsctruc>
+      },
+      {
+        path: '/see-all-courses',
+        element: <NavSeeAllCourses></NavSeeAllCourses>
       }
     ]
   }
-  // ,
-  // {
-  //   path: '*',
-  //   element: <Error404></Error404>
-  // }
+  ,
+  {
+    path: '*',
+    element: <Error404></Error404>
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

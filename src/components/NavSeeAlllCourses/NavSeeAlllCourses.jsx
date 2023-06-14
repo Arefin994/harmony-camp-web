@@ -1,8 +1,7 @@
-import React, { useState, useEffect,seEffect } from 'react';
-import './PopularClasses.css';
+import React, { useEffect, useState } from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 
-const PopularClasses = () => {
+const NavSeeAllCourses = () => {
   const [courses, setCourses] = useState([]);
 
   useEffect(() => {
@@ -12,11 +11,10 @@ const PopularClasses = () => {
       .catch(error => console.error(error));
   }, []);
 
-
   return (
-    <div className="top-instructors container py-4">
-    <h2 className='text-center py-3'>Popular <span className="clr-cstm-2">Classes</span></h2>
-    <Container>
+    <div>
+      <h1 className='text-center'>All Courses</h1>
+      <Container>
         <Row>
           {courses.map(course => (
             <Col key={course.id} sm={4}>
@@ -35,4 +33,4 @@ const PopularClasses = () => {
   );
 };
 
-export default PopularClasses;
+export default NavSeeAllCourses;

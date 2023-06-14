@@ -5,7 +5,7 @@ const NavSeeAllInsctruc = () => {
   const [instructors, setInstructors] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:5000/allData')
+    fetch('https://harmony-camp-server-side-arefin994.vercel.app/allData')
       .then(response => response.json())
       .then(data => setInstructors(data.allItems.popularInstructors))   
       .catch(error => console.error(error));

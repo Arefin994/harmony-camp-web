@@ -7,9 +7,10 @@ const TopInst = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('/data.json');
+        const response = await fetch('https://harmony-camp-server-side-arefin994.vercel.app/allData');
         const data = await response.json();
-        setTopInstructors(data.popularInstructors);
+        setTopInstructors(data.allItems.popularInstructors);
+        console.log(topInstructors)
       } catch (error) {
         console.error('Error fetching data:', error);
       }
